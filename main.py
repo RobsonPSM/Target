@@ -11,7 +11,7 @@ f = [0, 1]
 
 n = int(input("Digite um número: "))
 
-while f[-1] < num:
+while f[-1] < n:
     f.append(f[-1] + f[-2])
 
 if n in f:
